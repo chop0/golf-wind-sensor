@@ -536,9 +536,6 @@
     <Compile Include="src\libraries\adafruit-gfx-library\Adafruit_GFX.cpp">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="src\libraries\adafruit-gfx-library\fontconvert\fontconvert.c">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="src\libraries\adafruit-gfx-library\glcdfont.c">
       <SubType>compile</SubType>
     </Compile>
@@ -566,7 +563,6 @@
     <Folder Include="src\core\PreprocessingAssembly\" />
     <Folder Include="src\libraries\" />
     <Folder Include="src\libraries\adafruit-gfx-library\" />
-    <Folder Include="src\libraries\adafruit-gfx-library\fontconvert\" />
     <Folder Include="src\libraries\adafruit-st7735-library\" />
     <Folder Include="src\libraries\SPI\" />
   </ItemGroup>
