@@ -75,9 +75,9 @@ void set() {
 
 
 float interpolate(float values[15][2], float val) {
-  float lastVal; // S small
+  float lastVal = values[0][1]; // S small
   float currentVal; // S big
-  float lastKey; // F small
+  float lastKey = values[0][0]; // F small
   float currentKey; // F big
   if (val >= 3.096) {
 //    Serial.println("-------------\ninterpolation error: value to large");
