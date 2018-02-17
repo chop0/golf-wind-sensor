@@ -1200,7 +1200,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x3ee4
+.text           0x00000000     0x3edc
  *(.vectors)
  .vectors       0x00000000       0x68 C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.2.150/gcc/dev/atmega328p/avr5/crtatmega328p.o
                 0x00000000                __vector_default
@@ -1341,424 +1341,424 @@ END GROUP
                 0x00000d62                _Z8plotLineiifi
  .text.setup    0x00000ea2       0xaa Sketch.o
                 0x00000ea2                setup
- .text.loop     0x00000f4c      0x2e8 Sketch.o
+ .text.loop     0x00000f4c      0x2e0 Sketch.o
                 0x00000f4c                loop
  .text.avr-libc.fplib
-                0x00001234        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
-                0x00001234                __subsf3
-                0x00001236                __addsf3
+                0x0000122c        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                0x0000122c                __subsf3
+                0x0000122e                __addsf3
  .text.avr-libc.fplib
-                0x00001242       0xcc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
-                0x00001264                __addsf3x
+                0x0000123a       0xcc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                0x0000125c                __addsf3x
  .text.avr-libc.fplib
-                0x0000130e       0x5e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(atan.o)
-                0x0000130e                atan
+                0x00001306       0x5e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(atan.o)
+                0x00001306                atan
  .text.avr-libc.fplib
-                0x0000136c        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
-                0x0000136c                __nesf2
-                0x0000136c                __eqsf2
-                0x0000136c                __cmpsf2
-                0x0000136c                __ltsf2
-                0x0000136c                __lesf2
+                0x00001364        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cmpsf2.o)
+                0x00001364                __nesf2
+                0x00001364                __eqsf2
+                0x00001364                __cmpsf2
+                0x00001364                __ltsf2
+                0x00001364                __lesf2
  .text.avr-libc.fplib
-                0x00001376        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cos.o)
-                0x00001376                cos
+                0x0000136e        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(cos.o)
+                0x0000136e                cos
  .text.avr-libc.fplib
-                0x00001380        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
-                0x00001380                __divsf3
+                0x00001378        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x00001378                __divsf3
  .text.avr-libc.fplib
-                0x00001388       0xdc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
-                0x000013a8                __divsf3x
-                0x000013ae                __divsf3_pse
+                0x00001380       0xdc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x000013a0                __divsf3x
+                0x000013a6                __divsf3_pse
  .text.avr-libc.fplib
-                0x00001464        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
-                0x00001464                __fixsfsi
+                0x0000145c        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                0x0000145c                __fixsfsi
  .text.avr-libc.fplib
-                0x00001472       0x5e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
-                0x00001472                __fixunssfsi
+                0x0000146a       0x5e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x0000146a                __fixunssfsi
  .text.avr-libc.fplib
-                0x000014d0       0x7a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
-                0x000014d0                __floatunsisf
-                0x000014d4                __floatsisf
+                0x000014c8       0x7a c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x000014c8                __floatunsisf
+                0x000014cc                __floatsisf
  .text.avr-libc.fplib
-                0x0000154a       0x48 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
-                0x0000154a                __fp_cmp
+                0x00001542       0x48 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_cmp.o)
+                0x00001542                __fp_cmp
  .text.avr-libc.fplib
-                0x00001592        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
-                0x00001592                __fp_inf
+                0x0000158a        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x0000158a                __fp_inf
  .text.avr-libc.fplib
-                0x0000159e        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
-                0x0000159e                __fp_nan
+                0x00001596        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x00001596                __fp_nan
  .text.avr-libc.fplib
-                0x000015a4       0x4e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_powser.o)
-                0x000015a4                __fp_powser
+                0x0000159c       0x4e c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_powser.o)
+                0x0000159c                __fp_powser
  .text.avr-libc.fplib
-                0x000015f2        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
-                0x000015f2                __fp_pscA
+                0x000015ea        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x000015ea                __fp_pscA
  .text.avr-libc.fplib
-                0x00001600        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
-                0x00001600                __fp_pscB
+                0x000015f8        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x000015f8                __fp_pscB
  .text.avr-libc.fplib
-                0x0000160e       0x56 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_rempio2.o)
-                0x00001612                __fp_rempio2
+                0x00001606       0x56 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_rempio2.o)
+                0x0000160a                __fp_rempio2
  .text.avr-libc.fplib
-                0x00001664       0x22 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
-                0x00001664                __fp_round
+                0x0000165c       0x22 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x0000165c                __fp_round
  .text.avr-libc.fplib
-                0x00001686       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_sinus.o)
-                0x00001686                __fp_sinus
+                0x0000167e       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_sinus.o)
+                0x0000167e                __fp_sinus
  .text.avr-libc.fplib
-                0x000016ae       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
-                0x000016ae                __fp_split3
-                0x000016be                __fp_splitA
+                0x000016a6       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x000016a6                __fp_split3
+                0x000016b6                __fp_splitA
  .text.avr-libc.fplib
-                0x000016f2        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
-                0x000016f2                __fp_zero
-                0x000016f4                __fp_szero
+                0x000016ea        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x000016ea                __fp_zero
+                0x000016ec                __fp_szero
  .text.avr-libc.fplib
-                0x00001700        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
-                0x00001700                __gesf2
-                0x00001700                __gtsf2
+                0x000016f8        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(gesf2.o)
+                0x000016f8                __gesf2
+                0x000016f8                __gtsf2
  .text.avr-libc.fplib
-                0x0000170a       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(inverse.o)
-                0x0000170a                inverse
+                0x00001702       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(inverse.o)
+                0x00001702                inverse
  .text.avr-libc.fplib
-                0x0000171a        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
-                0x0000171a                __mulsf3
+                0x00001712        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x00001712                __mulsf3
  .text.avr-libc.fplib
-                0x00001722       0xd2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
-                0x00001740                __mulsf3x
-                0x00001746                __mulsf3_pse
+                0x0000171a       0xd2 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x00001738                __mulsf3x
+                0x0000173e                __mulsf3_pse
  .text.avr-libc.fplib
-                0x000017f4       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(sin.o)
-                0x000017f4                sin
+                0x000017ec       0x10 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(sin.o)
+                0x000017ec                sin
  .text.avr-libc.fplib
-                0x00001804       0x8c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(sqrt.o)
-                0x00001810                sqrtf
-                0x00001810                sqrt
+                0x000017fc       0x8c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(sqrt.o)
+                0x00001808                sqrtf
+                0x00001808                sqrt
  .text.avr-libc.fplib
-                0x00001890        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(square.o)
-                0x00001890                square
+                0x00001888        0x8 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(square.o)
+                0x00001888                square
  .text.avr-libc.fplib
-                0x00001898       0x1c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
-                0x00001898                __fp_mpack
-                0x0000189c                __fp_mpack_finite
+                0x00001890       0x1c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
+                0x00001890                __fp_mpack
+                0x00001894                __fp_mpack_finite
  .text.avr-libc.fplib
-                0x000018b4        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_norm2.o)
-                0x000018b4                __fp_norm2
+                0x000018ac        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_norm2.o)
+                0x000018ac                __fp_norm2
  .text.avr-libc.fplib
-                0x000018c2       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_powsodd.o)
-                0x000018c2                __fp_powsodd
+                0x000018ba       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_powsodd.o)
+                0x000018ba                __fp_powsodd
  .text._ZN14HardwareSerial9availableEv
-                0x000018ea       0x18 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000018ea                _ZN14HardwareSerial9availableEv
+                0x000018e2       0x18 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000018e2                _ZN14HardwareSerial9availableEv
  .text._ZN14HardwareSerial4peekEv
-                0x00001902       0x1c C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00001902                _ZN14HardwareSerial4peekEv
+                0x000018fa       0x1c C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000018fa                _ZN14HardwareSerial4peekEv
  .text._ZN14HardwareSerial4readEv
-                0x0000191e       0x28 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x0000191e                _ZN14HardwareSerial4readEv
+                0x00001916       0x28 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00001916                _ZN14HardwareSerial4readEv
  .text._ZN14HardwareSerial17availableForWriteEv
-                0x00001946       0x1e C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00001946                _ZN14HardwareSerial17availableForWriteEv
+                0x0000193e       0x1e C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000193e                _ZN14HardwareSerial17availableForWriteEv
  .text._Z14serialEventRunv
-                0x00001964       0x1c C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00001964                _Z14serialEventRunv
+                0x0000195c       0x1c C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x0000195c                _Z14serialEventRunv
  .text._ZN14HardwareSerial17_tx_udr_empty_irqEv
-                0x00001980       0x42 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00001980                _ZN14HardwareSerial17_tx_udr_empty_irqEv
+                0x00001978       0x42 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00001978                _ZN14HardwareSerial17_tx_udr_empty_irqEv
  .text._ZN14HardwareSerial5writeEh
-                0x000019c2       0x8e C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x000019c2                _ZN14HardwareSerial5writeEh
+                0x000019ba       0x8e C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x000019ba                _ZN14HardwareSerial5writeEh
  .text._ZN14HardwareSerial5flushEv
-                0x00001a50       0x44 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00001a50                _ZN14HardwareSerial5flushEv
+                0x00001a48       0x44 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00001a48                _ZN14HardwareSerial5flushEv
  .text._ZN14HardwareSerial5beginEmh
-                0x00001a94       0xca C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
-                0x00001a94                _ZN14HardwareSerial5beginEmh
+                0x00001a8c       0xca C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial.o)
+                0x00001a8c                _ZN14HardwareSerial5beginEmh
  .text._ZN5Print17availableForWriteEv
-                0x00001b5e        0x6 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00001b5e                _ZN5Print17availableForWriteEv
+                0x00001b56        0x6 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00001b56                _ZN5Print17availableForWriteEv
  .text._ZN5Print5flushEv
-                0x00001b64        0x2 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00001b64                _ZN5Print5flushEv
+                0x00001b5c        0x2 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00001b5c                _ZN5Print5flushEv
  .text.__vector_18
-                0x00001b66       0x64 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00001b66                __vector_18
+                0x00001b5e       0x64 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00001b5e                __vector_18
  .text.__vector_19
-                0x00001bca       0x4c C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00001bca                __vector_19
+                0x00001bc2       0x4c C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00001bc2                __vector_19
  .text._Z17Serial0_availablev
-                0x00001c16       0x14 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
-                0x00001c16                _Z17Serial0_availablev
+                0x00001c0e       0x14 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00001c0e                _Z17Serial0_availablev
  .text.startup._GLOBAL__sub_I___vector_18
-                0x00001c2a       0x5a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
+                0x00001c22       0x5a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(HardwareSerial0.o)
  .text.initVariant
-                0x00001c84        0x2 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x00001c84                initVariant
+                0x00001c7c        0x2 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00001c7c                initVariant
  .text.startup.main
-                0x00001c86       0x1e C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(main.o)
-                0x00001c86                main
+                0x00001c7e       0x1e C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(main.o)
+                0x00001c7e                main
  .text._ZN5Print5writeEPKhj
-                0x00001ca4       0x54 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00001ca4                _ZN5Print5writeEPKhj
+                0x00001c9c       0x54 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001c9c                _ZN5Print5writeEPKhj
  .text._ZN5Print5writeEPKc
-                0x00001cf8       0x2a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00001cf8                _ZN5Print5writeEPKc
+                0x00001cf0       0x2a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001cf0                _ZN5Print5writeEPKc
  .text._ZN5Print5printERK6String
-                0x00001d22       0x1c C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00001d22                _ZN5Print5printERK6String
+                0x00001d1a       0x1c C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001d1a                _ZN5Print5printERK6String
  .text._ZN5Print5printEc
-                0x00001d3e        0xe C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00001d3e                _ZN5Print5printEc
+                0x00001d36        0xe C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001d36                _ZN5Print5printEc
  .text._ZN5Print7printlnEv
-                0x00001d4c        0x8 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00001d4c                _ZN5Print7printlnEv
+                0x00001d44        0x8 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001d44                _ZN5Print7printlnEv
  .text._ZN5Print7printlnEPKc
-                0x00001d54       0x24 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00001d54                _ZN5Print7printlnEPKc
+                0x00001d4c       0x24 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001d4c                _ZN5Print7printlnEPKc
  .text._ZN5Print11printNumberEmh
-                0x00001d78       0x92 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00001d78                _ZN5Print11printNumberEmh
+                0x00001d70       0x92 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001d70                _ZN5Print11printNumberEmh
  .text._ZN5Print5printEmi
-                0x00001e0a       0x1a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00001e0a                _ZN5Print5printEmi
+                0x00001e02       0x1a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001e02                _ZN5Print5printEmi
  .text._ZN5Print5printEji
-                0x00001e24        0xc C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00001e24                _ZN5Print5printEji
+                0x00001e1c        0xc C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001e1c                _ZN5Print5printEji
  .text._ZN5Print10printFloatEdh
-                0x00001e30      0x1b6 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00001e30                _ZN5Print10printFloatEdh
+                0x00001e28      0x1b6 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001e28                _ZN5Print10printFloatEdh
  .text._ZN5Print5printEdi
-                0x00001fe6        0x4 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00001fe6                _ZN5Print5printEdi
+                0x00001fde        0x4 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001fde                _ZN5Print5printEdi
  .text._ZN5Print7printlnEdi
-                0x00001fea       0x24 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
-                0x00001fea                _ZN5Print7printlnEdi
+                0x00001fe2       0x24 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Print.o)
+                0x00001fe2                _ZN5Print7printlnEdi
  .text.__vector_16
-                0x0000200e       0x94 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x0000200e                __vector_16
- .text.micros   0x000020a2       0x4a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x000020a2                micros
- .text.delay    0x000020ec       0x78 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x000020ec                delay
- .text.init     0x00002164       0x76 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
-                0x00002164                init
+                0x00002006       0x94 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x00002006                __vector_16
+ .text.micros   0x0000209a       0x4a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x0000209a                micros
+ .text.delay    0x000020e4       0x78 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x000020e4                delay
+ .text.init     0x0000215c       0x76 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(wiring.o)
+                0x0000215c                init
  .text.turnOffPWM
-                0x000021da       0x52 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
- .text.pinMode  0x0000222c       0x78 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x0000222c                pinMode
+                0x000021d2       0x52 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+ .text.pinMode  0x00002224       0x78 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x00002224                pinMode
  .text.digitalWrite
-                0x000022a4       0x5e C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
-                0x000022a4                digitalWrite
+                0x0000229c       0x5e C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(wiring_digital.o)
+                0x0000229c                digitalWrite
  .text._ZN6StringD2Ev
-                0x00002302        0xa C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00002302                _ZN6StringD2Ev
-                0x00002302                _ZN6StringD1Ev
+                0x000022fa        0xa C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000022fa                _ZN6StringD2Ev
+                0x000022fa                _ZN6StringD1Ev
  .text._ZN6String10invalidateEv
-                0x0000230c       0x24 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x0000230c                _ZN6String10invalidateEv
+                0x00002304       0x24 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00002304                _ZN6String10invalidateEv
  .text._ZN6String12changeBufferEj
-                0x00002330       0x34 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00002330                _ZN6String12changeBufferEj
+                0x00002328       0x34 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00002328                _ZN6String12changeBufferEj
  .text._ZN6String7reserveEj
-                0x00002364       0x38 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x00002364                _ZN6String7reserveEj
+                0x0000235c       0x38 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x0000235c                _ZN6String7reserveEj
  .text._ZN6String4copyEPKcj
-                0x0000239c       0x42 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x0000239c                _ZN6String4copyEPKcj
+                0x00002394       0x42 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00002394                _ZN6String4copyEPKcj
  .text._ZN6StringaSEPKc
-                0x000023de       0x2e C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x000023de                _ZN6StringaSEPKc
+                0x000023d6       0x2e C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x000023d6                _ZN6StringaSEPKc
  .text._ZN6StringC2Eih
-                0x0000240c       0x58 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(WString.o)
-                0x0000240c                _ZN6StringC2Eih
-                0x0000240c                _ZN6StringC1Eih
+                0x00002404       0x58 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(WString.o)
+                0x00002404                _ZN6StringC2Eih
+                0x00002404                _ZN6StringC1Eih
  .text._ZN12Adafruit_GFX9writeLineEiiiij
-                0x00002464      0x164 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x00002464                _ZN12Adafruit_GFX9writeLineEiiiij
+                0x0000245c      0x164 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x0000245c                _ZN12Adafruit_GFX9writeLineEiiiij
  .text._ZN12Adafruit_GFX10writePixelEiij
-                0x000025c8        0xe C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x000025c8                _ZN12Adafruit_GFX10writePixelEiij
+                0x000025c0        0xe C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x000025c0                _ZN12Adafruit_GFX10writePixelEiij
  .text._ZN12Adafruit_GFX14writeFastVLineEiiij
-                0x000025d6       0x18 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x000025d6                _ZN12Adafruit_GFX14writeFastVLineEiiij
+                0x000025ce       0x18 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x000025ce                _ZN12Adafruit_GFX14writeFastVLineEiiij
  .text._ZN12Adafruit_GFX14writeFastHLineEiiij
-                0x000025ee       0x18 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x000025ee                _ZN12Adafruit_GFX14writeFastHLineEiiij
+                0x000025e6       0x18 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x000025e6                _ZN12Adafruit_GFX14writeFastHLineEiiij
  .text._ZN12Adafruit_GFX13writeFillRectEiiiij
-                0x00002606       0x20 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x00002606                _ZN12Adafruit_GFX13writeFillRectEiiiij
+                0x000025fe       0x20 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x000025fe                _ZN12Adafruit_GFX13writeFillRectEiiiij
  .text._ZN12Adafruit_GFX8endWriteEv
-                0x00002626        0x2 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x00002626                _ZN12Adafruit_GFX10startWriteEv
-                0x00002626                _ZN12Adafruit_GFX8endWriteEv
+                0x0000261e        0x2 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x0000261e                _ZN12Adafruit_GFX10startWriteEv
+                0x0000261e                _ZN12Adafruit_GFX8endWriteEv
  .text._ZN12Adafruit_GFX13drawFastVLineEiiij
-                0x00002628       0x72 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x00002628                _ZN12Adafruit_GFX13drawFastVLineEiiij
+                0x00002620       0x72 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x00002620                _ZN12Adafruit_GFX13drawFastVLineEiiij
  .text._ZN12Adafruit_GFX13drawFastHLineEiiij
-                0x0000269a       0x72 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x0000269a                _ZN12Adafruit_GFX13drawFastHLineEiiij
+                0x00002692       0x72 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x00002692                _ZN12Adafruit_GFX13drawFastHLineEiiij
  .text._ZN12Adafruit_GFX8fillRectEiiiij
-                0x0000270c       0x8a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x0000270c                _ZN12Adafruit_GFX8fillRectEiiiij
+                0x00002704       0x8a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x00002704                _ZN12Adafruit_GFX8fillRectEiiiij
  .text._ZN12Adafruit_GFX10fillScreenEj
-                0x00002796       0x3a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x00002796                _ZN12Adafruit_GFX10fillScreenEj
+                0x0000278e       0x3a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x0000278e                _ZN12Adafruit_GFX10fillScreenEj
  .text._ZN12Adafruit_GFX8drawLineEiiiij
-                0x000027d0       0xda C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x000027d0                _ZN12Adafruit_GFX8drawLineEiiiij
+                0x000027c8       0xda C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x000027c8                _ZN12Adafruit_GFX8drawLineEiiiij
  .text._ZN12Adafruit_GFX8drawRectEiiiij
-                0x000028aa       0xbe C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x000028aa                _ZN12Adafruit_GFX8drawRectEiiiij
+                0x000028a2       0xbe C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x000028a2                _ZN12Adafruit_GFX8drawRectEiiiij
  .text._ZN12Adafruit_GFX13invertDisplayEb
-                0x00002968        0x2 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x00002968                _ZN12Adafruit_GFX13invertDisplayEb
+                0x00002960        0x2 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x00002960                _ZN12Adafruit_GFX13invertDisplayEb
  .text._ZN12Adafruit_GFX11setRotationEh
-                0x0000296a       0x2a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x0000296a                _ZN12Adafruit_GFX11setRotationEh
+                0x00002962       0x2a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x00002962                _ZN12Adafruit_GFX11setRotationEh
  .text._ZN12Adafruit_GFXC2Eii
-                0x00002994       0x42 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x00002994                _ZN12Adafruit_GFXC2Eii
-                0x00002994                _ZN12Adafruit_GFXC1Eii
+                0x0000298c       0x42 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x0000298c                _ZN12Adafruit_GFXC2Eii
+                0x0000298c                _ZN12Adafruit_GFXC1Eii
  .text._ZN12Adafruit_GFX8drawCharEiihjjh
-                0x000029d6      0x434 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x000029d6                _ZN12Adafruit_GFX8drawCharEiihjjh
+                0x000029ce      0x434 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x000029ce                _ZN12Adafruit_GFX8drawCharEiihjjh
  .text._ZN12Adafruit_GFX5writeEh
-                0x00002e0a      0x1ac C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x00002e0a                _ZN12Adafruit_GFX5writeEh
+                0x00002e02      0x1ac C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x00002e02                _ZN12Adafruit_GFX5writeEh
  .text._ZN12Adafruit_GFX9setCursorEii
-                0x00002fb6        0xc C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x00002fb6                _ZN12Adafruit_GFX9setCursorEii
+                0x00002fae        0xc C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x00002fae                _ZN12Adafruit_GFX9setCursorEii
  .text._ZN12Adafruit_GFX12setTextColorEj
-                0x00002fc2        0xc C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x00002fc2                _ZN12Adafruit_GFX12setTextColorEj
+                0x00002fba        0xc C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x00002fba                _ZN12Adafruit_GFX12setTextColorEj
  .text._ZNK12Adafruit_GFX5widthEv
-                0x00002fce        0x8 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x00002fce                _ZNK12Adafruit_GFX5widthEv
+                0x00002fc6        0x8 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x00002fc6                _ZNK12Adafruit_GFX5widthEv
  .text._ZNK12Adafruit_GFX6heightEv
-                0x00002fd6        0x8 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
-                0x00002fd6                _ZNK12Adafruit_GFX6heightEv
+                0x00002fce        0x8 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_GFX.o)
+                0x00002fce                _ZNK12Adafruit_GFX6heightEv
  .text._ZN15Adafruit_ST773510fillScreenEj
-                0x00002fde       0x3a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x00002fde                _ZN15Adafruit_ST773510fillScreenEj
+                0x00002fd6       0x3a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x00002fd6                _ZN15Adafruit_ST773510fillScreenEj
  .text._ZN8SPIClass16beginTransactionE11SPISettings
-                0x00003018       0x34 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x00003018                _ZN8SPIClass16beginTransactionE11SPISettings
+                0x00003010       0x34 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x00003010                _ZN8SPIClass16beginTransactionE11SPISettings
  .text._ZN8SPIClass14endTransactionEv
-                0x0000304c       0x22 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x0000304c                _ZN8SPIClass14endTransactionEv
+                0x00003044       0x22 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x00003044                _ZN8SPIClass14endTransactionEv
  .text._ZN15Adafruit_ST7735C2Eaaa
-                0x0000306e       0x42 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x0000306e                _ZN15Adafruit_ST7735C1Eaaa
-                0x0000306e                _ZN15Adafruit_ST7735C2Eaaa
+                0x00003066       0x42 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x00003066                _ZN15Adafruit_ST7735C1Eaaa
+                0x00003066                _ZN15Adafruit_ST7735C2Eaaa
  .text._ZN15Adafruit_ST77358spiwriteEh
-                0x000030b0       0x5a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x000030b0                _ZN15Adafruit_ST77358spiwriteEh
+                0x000030a8       0x5a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x000030a8                _ZN15Adafruit_ST77358spiwriteEh
  .text._ZN15Adafruit_ST77357CS_HIGHEv
-                0x0000310a       0x16 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x0000310a                _ZN15Adafruit_ST77357CS_HIGHEv
+                0x00003102       0x16 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x00003102                _ZN15Adafruit_ST77357CS_HIGHEv
  .text._ZN15Adafruit_ST77356CS_LOWEv
-                0x00003120       0x18 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x00003120                _ZN15Adafruit_ST77356CS_LOWEv
+                0x00003118       0x18 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x00003118                _ZN15Adafruit_ST77356CS_LOWEv
  .text._ZN15Adafruit_ST773512writecommandEh
-                0x00003138       0x56 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x00003138                _ZN15Adafruit_ST773512writecommandEh
+                0x00003130       0x56 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x00003130                _ZN15Adafruit_ST773512writecommandEh
  .text._ZN15Adafruit_ST773513invertDisplayEb
-                0x0000318e        0xe C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x0000318e                _ZN15Adafruit_ST773513invertDisplayEb
+                0x00003186        0xe C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x00003186                _ZN15Adafruit_ST773513invertDisplayEb
  .text._ZN15Adafruit_ST77357DC_HIGHEv
-                0x0000319c       0x16 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x0000319c                _ZN15Adafruit_ST77357DC_HIGHEv
+                0x00003194       0x16 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x00003194                _ZN15Adafruit_ST77357DC_HIGHEv
  .text._ZN15Adafruit_ST77359writedataEh
-                0x000031b2       0x4e C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x000031b2                _ZN15Adafruit_ST77359writedataEh
+                0x000031aa       0x4e C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x000031aa                _ZN15Adafruit_ST77359writedataEh
  .text._ZN15Adafruit_ST773511commandListEPKh
-                0x00003200       0xa8 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x00003200                _ZN15Adafruit_ST773511commandListEPKh
+                0x000031f8       0xa8 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x000031f8                _ZN15Adafruit_ST773511commandListEPKh
  .text._ZN15Adafruit_ST773510commonInitEPKh
-                0x000032a8      0x17a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x000032a8                _ZN15Adafruit_ST773510commonInitEPKh
+                0x000032a0      0x17a C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x000032a0                _ZN15Adafruit_ST773510commonInitEPKh
  .text._ZN15Adafruit_ST77355initREh
-                0x00003422       0xb6 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x00003422                _ZN15Adafruit_ST77355initREh
+                0x0000341a       0xb6 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x0000341a                _ZN15Adafruit_ST77355initREh
  .text._ZN15Adafruit_ST773513setAddrWindowEhhhh
-                0x000034d8       0x7e C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x000034d8                _ZN15Adafruit_ST773513setAddrWindowEhhhh
+                0x000034d0       0x7e C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x000034d0                _ZN15Adafruit_ST773513setAddrWindowEhhhh
  .text._ZN15Adafruit_ST773511setRotationEh
-                0x00003556       0xea C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x00003556                _ZN15Adafruit_ST773511setRotationEh
+                0x0000354e       0xea C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x0000354e                _ZN15Adafruit_ST773511setRotationEh
  .text._ZN15Adafruit_ST773513drawFastHLineEiiij
-                0x00003640       0xb4 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x00003640                _ZN15Adafruit_ST773513drawFastHLineEiiij
+                0x00003638       0xb4 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x00003638                _ZN15Adafruit_ST773513drawFastHLineEiiij
  .text._ZN15Adafruit_ST77358fillRectEiiiij
-                0x000036f4       0xec C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x000036f4                _ZN15Adafruit_ST77358fillRectEiiiij
+                0x000036ec       0xec C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x000036ec                _ZN15Adafruit_ST77358fillRectEiiiij
  .text._ZN15Adafruit_ST773513drawFastVLineEiiij
-                0x000037e0       0xb4 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x000037e0                _ZN15Adafruit_ST773513drawFastVLineEiiij
+                0x000037d8       0xb4 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x000037d8                _ZN15Adafruit_ST773513drawFastVLineEiiij
  .text._ZN15Adafruit_ST77359drawPixelEiij
-                0x00003894       0x8e C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
-                0x00003894                _ZN15Adafruit_ST77359drawPixelEiij
+                0x0000388c       0x8e C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x0000388c                _ZN15Adafruit_ST77359drawPixelEiij
  .text.startup._GLOBAL__sub_I__ZN15Adafruit_ST7735C2Eaaaaa
-                0x00003922        0xc C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
+                0x0000391a        0xc C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(Adafruit_ST7735.o)
  .text._ZN8SPIClass5beginEv
-                0x0000392e       0x6c C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
-                0x0000392e                _ZN8SPIClass5beginEv
+                0x00003926       0x6c C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(SPI.o)
+                0x00003926                _ZN8SPIClass5beginEv
  .text.__cxa_pure_virtual
-                0x0000399a        0x4 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(abi.o)
-                0x0000399a                __cxa_pure_virtual
- .text.__empty  0x0000399e        0x2 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
-                0x0000399e                yield
+                0x00003992        0x4 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(abi.o)
+                0x00003992                __cxa_pure_virtual
+ .text.__empty  0x00003996        0x2 C:\Users\alect\Documents\Atmel Studio\7.0\ArduinoSketch3\ArduinoSketch3\ArduinoCore\Debug\libArduinoCore.a(hooks.o)
+                0x00003996                yield
  .text.avr-libc.fplib
-                0x000039a0        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
-                0x000039a0                __unordsf2
+                0x00003998        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(unordsf2.o)
+                0x00003998                __unordsf2
  .text.libgcc.div
-                0x000039aa       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
-                0x000039aa                __udivmodsi4
- .text.libgcc   0x000039ee        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
-                0x000039ee                __tablejump2__
+                0x000039a2       0x44 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x000039a2                __udivmodsi4
+ .text.libgcc   0x000039e6        0xc c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x000039e6                __tablejump2__
  .text.avr-libc
-                0x000039fa      0x242 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
-                0x000039fa                malloc
-                0x00003b2a                free
+                0x000039f2      0x242 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x000039f2                malloc
+                0x00003b22                free
  .text.avr-libc
-                0x00003c3c      0x18c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o)
-                0x00003c3c                realloc
+                0x00003c34      0x18c c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(realloc.o)
+                0x00003c34                realloc
  .text.avr-libc
-                0x00003dc8        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
-                0x00003dc8                abort
+                0x00003dc0        0xa c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(abort.o)
+                0x00003dc0                abort
  .text.avr-libc
-                0x00003dd2       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
-                0x00003dd2                memcpy
+                0x00003dca       0x12 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(memcpy.o)
+                0x00003dca                memcpy
  .text.avr-libc
-                0x00003de4        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
-                0x00003de4                strcpy
+                0x00003ddc        0xe c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                0x00003ddc                strcpy
  .text.avr-libc
-                0x00003df2       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa.o)
-                0x00003df2                __itoa
-                0x00003df2                itoa
+                0x00003dea       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa.o)
+                0x00003dea                __itoa
+                0x00003dea                itoa
  .text.avr-libc
-                0x00003e08       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
-                0x00003e08                __itoa_ncheck
+                0x00003e00       0x16 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(itoa_ncheck.o)
+                0x00003e00                __itoa_ncheck
  .text.avr-libc
-                0x00003e1e       0x34 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
-                0x00003e1e                __utoa_ncheck
-                0x00003e20                __utoa_common
+                0x00003e16       0x34 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(utoa_ncheck.o)
+                0x00003e16                __utoa_ncheck
+                0x00003e18                __utoa_common
  .text.avr-libc
-                0x00003e52       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
-                0x00003e52                strrev
+                0x00003e4a       0x20 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x00003e4a                strrev
  .text.libgcc.prologue
-                0x00003e72       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
-                0x00003e72                __prologue_saves__
+                0x00003e6a       0x38 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_prologue.o)
+                0x00003e6a                __prologue_saves__
  .text.libgcc.prologue
-                0x00003eaa       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
-                0x00003eaa                __epilogue_restores__
-                0x00003ee0                . = ALIGN (0x2)
+                0x00003ea2       0x36 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_epilogue.o)
+                0x00003ea2                __epilogue_restores__
+                0x00003ed8                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00003ee0        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
-                0x00003ee0                _exit
-                0x00003ee0                exit
+ .fini9         0x00003ed8        0x0 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x00003ed8                _exit
+                0x00003ed8                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -1777,11 +1777,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00003ee0        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x00003ed8        0x4 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00003ee4                _etext = .
+                0x00003edc                _etext = .
 
-.data           0x00800100       0x9a load address 0x00003ee4
+.data           0x00800100       0x9a load address 0x00003edc
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800100        0x6 c:/program files (x86)/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a(malloc.o)
@@ -1877,8 +1877,8 @@ END GROUP
                 0x0080038b                __brkval
                 0x0080038d                __flp
                 0x0080038f                PROVIDE (__bss_end, .)
-                0x00003ee4                __data_load_start = LOADADDR (.data)
-                0x00003f7e                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x00003edc                __data_load_start = LOADADDR (.data)
+                0x00003f76                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x0080038f        0x0
                 [!provide]                PROVIDE (__noinit_start, .)

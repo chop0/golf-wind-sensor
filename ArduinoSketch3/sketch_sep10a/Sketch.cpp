@@ -90,8 +90,8 @@ void loop() {
 	raw0 = analogRead(A0);
 	raw1 = analogRead(A2);
 	*/
-	raw0 = 2.4;
-	raw1 = 2.6;
+	raw0 = 552;
+	raw1 = 552;
 	Ywind = interpolate(flows95, (raw1 / 1023.0) * 5.0);
 	Xwind = interpolate(flows94, (raw0 / 1023.0) * 5.0);
 	totalWind = getTotalWind(Ywind, Xwind);
